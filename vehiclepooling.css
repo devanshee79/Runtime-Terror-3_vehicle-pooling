@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    color:darkgoldenrod;
+    font-size: 50px;
+}
