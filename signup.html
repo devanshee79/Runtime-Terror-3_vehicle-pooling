@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signuo page</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <!--full name-->
+            <label for="fullName">Full Name :</label>
+            <input type="text" id="fullName" name="fullName" autocomplete="on" required><br>
+            <!--radio buttons-->
+            <input type="radio" id="Female"  required>
+            <label for="female">Female</label>
+            <input type="radio" id="male"  required>
+            <label for="male">Male</label>
+            <input type="radio" id="other"  required>
+            <label for="other">Others</label><br>
+            <!--address-->
+            <label for="address">Address</label>
+            <textarea cols="20" rows="5" id="address" placeholder="type your address..." autocomplete="on" required></textarea><br>
+            <!--dob-->
+            <label for="dateOfBirth">D.O.B :</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" autocomplete="on" required><br>
+            <!--email id-->
+            <label for="emailId">Email-id</label>
+            <input type="email" id="emailID" autocomplete="on" required><br>
+            <!--mobile number-->
+            <label for="mobileNumber">Mobile number :</label>
+            <input type="tel" id="mobileNumber" autocomplete="on" required><br>
+            <!--sign up button-->
+            <button type="submit">Sign-up</button>
+        </form>
+    </div>
+</body>
+</html>
