@@ -1,0 +1,25 @@
+* {
+    font-family: cursive;
+}
+
+.body {
+    background-image: url("about-us.png");
+    background-repeat: no-repeat;
+    background-size: 4000px;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+.box {
+    padding: 50px;
+    margin: 50px;
+    border: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 5px;
+}
